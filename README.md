@@ -2,3 +2,6 @@
 
 This game was made with:
 - Unity 2022 
+
+Required packages:
+- Input System 1.7.0
