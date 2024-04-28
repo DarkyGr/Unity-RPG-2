@@ -29,7 +29,7 @@ public class Sword : MonoBehaviour
 
     private void Update()
     {
-        MouseFollowWithOffset();
+        // MouseFollowWithOffset();
     }
 
     private void Attack()
