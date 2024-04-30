@@ -14,7 +14,6 @@ public class PlayerController : MonoBehaviour
     private Animator myAnimator;
     private SpriteRenderer mySpriteRenderer;
 
-
     private void Awake()
     {
         playerControls = new PlayerControls();
