@@ -11,8 +11,8 @@ public class Sword : MonoBehaviour
 
     private void Awake()
     {
-        playerController = GetComponent<PlayerController>();
-        activeWeapon = GetComponent<ActiveWeapon>();
+        playerController = GetComponentInParent<PlayerController>();
+        activeWeapon = GetComponentInParent<ActiveWeapon>();
         myAnimator = GetComponent<Animator>();
         playerControls = new PlayerControls();
     }
