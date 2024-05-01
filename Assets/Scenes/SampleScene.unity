@@ -601,7 +601,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &920993578
 Transform:
   m_ObjectHideFlags: 0
@@ -680,6 +680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b310efd08133e7e4b85a299fbab8b6bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageAmount: 1
 --- !u!1001 &949592829
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -737,6 +738,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3714fbbc8f1b9c48a750ec34b3d9219, type: 3}
+--- !u!1001 &963101327
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5487422515870319296, guid: 93f3b922e86931d419db2c8f32929364, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487422515870319296, guid: 93f3b922e86931d419db2c8f32929364, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487422515870319296, guid: 93f3b922e86931d419db2c8f32929364, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487422515870319296, guid: 93f3b922e86931d419db2c8f32929364, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487422515870319296, guid: 93f3b922e86931d419db2c8f32929364, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487422515870319296, guid: 93f3b922e86931d419db2c8f32929364, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487422515870319296, guid: 93f3b922e86931d419db2c8f32929364, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487422515870319296, guid: 93f3b922e86931d419db2c8f32929364, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487422515870319296, guid: 93f3b922e86931d419db2c8f32929364, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487422515870319296, guid: 93f3b922e86931d419db2c8f32929364, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858721419903745385, guid: 93f3b922e86931d419db2c8f32929364, type: 3}
+      propertyPath: m_Name
+      value: Blue Slime (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 93f3b922e86931d419db2c8f32929364, type: 3}
 --- !u!1 &981479824
 GameObject:
   m_ObjectHideFlags: 0
@@ -1500,3 +1558,4 @@ SceneRoots:
   - {fileID: 1984328661}
   - {fileID: 1186765323}
   - {fileID: 5148894908264826205}
+  - {fileID: 963101327}
