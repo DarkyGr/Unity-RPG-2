@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1952081346, guid: 740eacc5386312747a6d66eb8a0f9309, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 08ca3090cc21eee4da240bdfc83ef292, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -117,6 +117,6 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.044402122, y: -1.2750227}
-  m_Size: {x: 0.7637377, y: 0.7637377}
-  m_Direction: 0
+  m_Offset: {x: 0.0011714142, y: 0.032701496}
+  m_Size: {x: 1.0663522, y: 0.77454865}
+  m_Direction: 1
