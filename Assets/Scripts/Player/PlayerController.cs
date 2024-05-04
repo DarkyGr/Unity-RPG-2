@@ -68,7 +68,7 @@ public class PlayerController : MonoBehaviour
         }
         else { 
             mySpriteRenderer.flipX = false;
-            FacingLeft = true;
+            FacingLeft = false;
         }
     }
 }
