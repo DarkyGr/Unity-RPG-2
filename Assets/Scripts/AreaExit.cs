@@ -8,9 +8,9 @@ public class AreaExit : MonoBehaviour
     [SerializeField] private string sceneToLoad;
     [SerializeField] private string sceneTransitionName;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.GetComponent<PlayerController>())
+        if (other.gameObject.GetComponent<PlayerController>())
         {
             SceneManager.LoadScene(sceneToLoad);
             SceneManagement.Instance.SetTransitionName(sceneTransitionName);

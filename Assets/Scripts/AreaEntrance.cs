@@ -6,7 +6,7 @@ public class AreaEntrance : MonoBehaviour
 {
     [SerializeField] private string transitionName;
 
-    protected void Start()
+    private void Start()
     {
         if(transitionName == SceneManagement.Instance.SceneTransitionName)
         {

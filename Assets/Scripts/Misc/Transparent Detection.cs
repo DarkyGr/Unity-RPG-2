@@ -6,7 +6,7 @@ using UnityEngine.Tilemaps;
 public class TransparentDetection : MonoBehaviour
 {
     [Range(0, 1)]
-    [SerializeField] private float transparencyAmount = .8f;
+    [SerializeField] private float transparencyAmount = 0.8f;
     [SerializeField] private float fadeTime = .4f;
 
     private SpriteRenderer spriteRenderer;
