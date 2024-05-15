@@ -48,7 +48,7 @@ public class TransparentDetection : MonoBehaviour
             }
         }
     }
-
+    */
     private IEnumerator FadeRoutine(SpriteRenderer spriteRenderer, float fadeTime, float startValue, float targetTransparency)
     {
         float elapsedTime = 0;
@@ -72,5 +72,4 @@ public class TransparentDetection : MonoBehaviour
             yield return null;
         }
     }
-    */
 }
