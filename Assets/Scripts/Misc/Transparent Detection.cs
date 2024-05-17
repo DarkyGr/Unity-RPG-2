@@ -33,7 +33,6 @@ public class TransparentDetection : MonoBehaviour
         }
     }
 
-/*
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.gameObject.GetComponent<PlayerController>())
@@ -48,7 +47,7 @@ public class TransparentDetection : MonoBehaviour
             }
         }
     }
-    */
+    
     private IEnumerator FadeRoutine(SpriteRenderer spriteRenderer, float fadeTime, float startValue, float targetTransparency)
     {
         float elapsedTime = 0;
